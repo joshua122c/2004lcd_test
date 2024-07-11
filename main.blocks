@@ -1,0 +1,10 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="yi,ZbUT2dJfk*gC4@[4=" x="0" y="0"><statement name="HANDLER"><block type="makerbit_lcd_clear_2004" id="`oC;2EC5iOK}sIM=MxX5"><next><block type="makerbit_lcd_makecharacter" id="EDf,fxU%$6[/x!)Ngm!G"><field name="char">LcdChar.c1</field><value name="im"><block type="makerbit_lcd_characterpixels" id="JE}f+-poF1`:!J})?s(`"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></value></block></next></block></statement></block><block type="device_forever" id="-pDX++4~}bEWMMWl,vm2" x="380" y="2"><statement name="HANDLER"><block type="makerbit_lcd_show_string_on_2004" id="*R]z0iCaxH[ZKZX}akV5"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="option">TextOption.AlignLeft</field><value name="text"><shadow type="text" id="D9[p,[M~A%G#~7ITH^@P"><field name="TEXT">HELLO WORLD</field></shadow></value><value name="startPosition"><shadow type="makerbit_lcd_position_2004" id="`wwc9`mrkIL.L!9Ox,8Q"><field name="pos">LcdPosition2004.Pos1</field></shadow></value><value name="length"><shadow type="math_number_minmax" id="7]QcJD[.|}Xz=@@SL53u"><mutation min="1" max="80" label="Length" precision="1"></mutation><field name="SLIDER">20</field></shadow></value></block></statement></block></xml>
